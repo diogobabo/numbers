@@ -1,5 +1,7 @@
 package com.aor.numbers;
 
-public interface GenericListFilter {
+import java.util.List;
+
+public interface GenericListFilter  {
     public boolean accept(int number);
 }
