@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FirstSpecification" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-26T17:39:22" hostname="DESKTOP-F2KKRUC" time="0.355">
+<testsuite name="FirstSpecification" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-11-26T17:51:58" hostname="DESKTOP-F2KKRUC" time="0.39">
   <properties/>
-  <testcase name="one plus one should equal two" classname="FirstSpecification" time="0.303"/>
-  <testcase name="two plus two should equal four" classname="FirstSpecification" time="0.003"/>
+  <testcase name="one plus one should equal two" classname="FirstSpecification" time="0.313"/>
+  <testcase name="two plus two should equal four" classname="FirstSpecification" time="0.002"/>
   <testcase name="Should be able to remove from list" classname="FirstSpecification" time="0.042"/>
   <testcase name="Should get an index out of bounds when removing a nonexistent item" classname="FirstSpecification" time="0.006"/>
+  <testcase name="numbers to the power of two [a: 1, b: 2, c: 1, #0]" classname="FirstSpecification" time="0.009"/>
+  <testcase name="numbers to the power of two [a: 2, b: 2, c: 4, #1]" classname="FirstSpecification" time="0.001"/>
+  <testcase name="numbers to the power of two [a: 3, b: 2, c: 9, #2]" classname="FirstSpecification" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

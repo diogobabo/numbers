@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.PositiveFilterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-26T17:39:23" hostname="DESKTOP-F2KKRUC" time="0.001">
+<testsuite name="com.aor.numbers.PositiveFilterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-26T17:51:59" hostname="DESKTOP-F2KKRUC" time="0.004">
   <properties/>
-  <testcase name="positiveFilter()" classname="com.aor.numbers.PositiveFilterTest" time="0.0"/>
-  <testcase name="positiveFilter_02()" classname="com.aor.numbers.PositiveFilterTest" time="0.0"/>
+  <testcase name="positiveFilter()" classname="com.aor.numbers.PositiveFilterTest" time="0.002"/>
+  <testcase name="positiveFilter_02()" classname="com.aor.numbers.PositiveFilterTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
