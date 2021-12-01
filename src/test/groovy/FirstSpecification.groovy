@@ -1,3 +1,4 @@
+import com.aor.numbers.GenericListDeduplicator
 import spock.lang.Specification
 
 class FirstSpecification extends Specification {
@@ -39,5 +40,22 @@ class FirstSpecification extends Specification {
         1 | 2 | 1
         2 | 2 | 4
         3 | 2 | 9
+    }
+    def "cena"() {
+        given:
+        def deduplicator = Mock(GenericListDeduplicator)
+        deduplicator.deduplicate(_) >>> [Arrays.asList(1, 2, 4), Arrays.asList(6, 7)]
+        when:
+        def result = deduplicator.deduplicate(Arrays.asList(1, 2, 4, 2))
+        then:
+        result == Arrays.asList(1,2,4)
+    }
+    def "Should verify notify was called"() {
+        given:
+        def notifier = Mock(Notifier)
+        when:
+            notifier.notify('foo')
+        then:
+            2 * notifier.notify(!'foo')
     }
 }
