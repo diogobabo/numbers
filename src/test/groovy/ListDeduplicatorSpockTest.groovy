@@ -1,5 +1,4 @@
-import com.aor.numbers.GenericListSorter
-import com.aor.numbers.ListDeduplicator
+package com.aor.numbers
 import spock.lang.Specification
 
 class ListDeduplicatorSpockTest extends Specification {

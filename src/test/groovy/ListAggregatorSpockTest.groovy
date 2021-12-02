@@ -1,6 +1,4 @@
-import com.aor.numbers.ListAggregator
-import com.aor.numbers.ListDeduplicator
-import com.aor.numbers.ListSorter
+package com.aor.numbers
 import spock.lang.Specification
 
 class ListAggregatorSpockTest extends Specification {

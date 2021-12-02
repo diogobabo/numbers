@@ -1,4 +1,4 @@
-import com.aor.numbers.DivisibleByFilter
+package com.aor.numbers
 import spock.lang.Specification
 
 class DivisibleByFilterSpockTest extends Specification {

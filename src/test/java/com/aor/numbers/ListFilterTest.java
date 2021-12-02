@@ -13,8 +13,8 @@ public class ListFilterTest {
         PositiveFilter pos = new PositiveFilter();
         DivisibleByFilter div = new DivisibleByFilter(5);
 
-        ListFilter tdiv= new ListFilter(div);
-        ListFilter tpos = new ListFilter(pos);
+        ListFilterer tdiv= new ListFilterer(div);
+        ListFilterer tpos = new ListFilterer(pos);
 
 
         Assertions.assertEquals(Arrays.asList(1, 2, 3), tpos.filter(list));

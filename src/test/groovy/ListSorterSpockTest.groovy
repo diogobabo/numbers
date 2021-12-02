@@ -1,4 +1,4 @@
-import com.aor.numbers.ListSorter
+package com.aor.numbers
 import spock.lang.Specification
 
 class ListSorterSpockTest extends Specification {
