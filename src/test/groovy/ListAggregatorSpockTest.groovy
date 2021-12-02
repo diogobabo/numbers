@@ -1,5 +1,6 @@
-package pt.up.fe.ldts.numbers
-
+import com.aor.numbers.ListAggregator
+import com.aor.numbers.ListDeduplicator
+import com.aor.numbers.ListSorter
 import spock.lang.Specification
 
 class ListAggregatorSpockTest extends Specification {

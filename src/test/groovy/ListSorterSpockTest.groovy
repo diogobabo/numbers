@@ -1,5 +1,4 @@
-package pt.up.fe.ldts.numbers
-
+import com.aor.numbers.ListSorter
 import spock.lang.Specification
 
 class ListSorterSpockTest extends Specification {

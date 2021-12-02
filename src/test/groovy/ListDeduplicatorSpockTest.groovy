@@ -1,5 +1,5 @@
-package pt.up.fe.ldts.numbers
-
+import com.aor.numbers.GenericListSorter
+import com.aor.numbers.ListDeduplicator
 import spock.lang.Specification
 
 class ListDeduplicatorSpockTest extends Specification {
@@ -13,7 +13,7 @@ class ListDeduplicatorSpockTest extends Specification {
 
     def 'Testing deduplicate'() {
         given:
-            GenericListSorter sorter = Mock(GenericListSorter.class)
+        GenericListSorter sorter = Mock(GenericListSorter.class)
             def deduplicator = new ListDeduplicator(sorter)
 
             sorter.sort(_) >> Arrays.asList(1, 2, 2, 4, 5)

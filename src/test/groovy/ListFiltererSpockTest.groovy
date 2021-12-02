@@ -1,5 +1,4 @@
-package pt.up.fe.ldts.numbers
-
+import com.aor.numbers.ListFilter
 import spock.lang.Specification
 
 class ListFiltererSpockTest extends Specification {
@@ -14,7 +13,7 @@ class ListFiltererSpockTest extends Specification {
             filter.accept(5) >> true
 
         when:
-            def filterer = new ListFilterer(filter);
+            def filterer = new ListFilter(filter);
 
         then:
             Arrays.asList(1, 3, 5) == filterer.filter(Arrays.asList(1, 2, 3, 4, 5))

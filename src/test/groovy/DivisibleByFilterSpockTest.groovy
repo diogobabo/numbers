@@ -1,6 +1,4 @@
-package pt.up.fe.ldts.numbers
-
-
+import com.aor.numbers.DivisibleByFilter
 import spock.lang.Specification
 
 class DivisibleByFilterSpockTest extends Specification {

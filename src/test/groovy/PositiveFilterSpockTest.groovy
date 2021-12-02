@@ -1,5 +1,4 @@
-package pt.up.fe.ldts.numbers
-
+import com.aor.numbers.PositiveFilter
 import spock.lang.Specification
 
 class PositiveFilterSpockTest extends Specification {
