@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.DivisibleByFilterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-01T23:12:16" hostname="DESKTOP-23EKJST" time="0.011">
-  <properties/>
-  <testcase name="divisibleByFilter_02()" classname="com.aor.numbers.DivisibleByFilterTest" time="0.01"/>
-  <testcase name="divisibleByFilter()" classname="com.aor.numbers.DivisibleByFilterTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
