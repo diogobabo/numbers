@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListFiltererSpockTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-12-02T19:12:04" hostname="DESKTOP-23EKJST" time="6.147">
+  <properties/>
+  <testcase name="Testing: filter" classname="ListFiltererSpockTest" time="6.147">
+    <failure message="groovy.lang.MissingPropertyException: No such property: GenericListFilter for class: ListFiltererSpockTest" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: GenericListFilter for class: ListFiltererSpockTest
+	at ListFiltererSpockTest.Testing: filter(ListFiltererSpockTest.groovy:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
